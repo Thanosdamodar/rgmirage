@@ -1,0 +1,264 @@
+body{
+  font-family: "DM Sans",sans-serif;
+}
+/* Navigation Bar */
+.nav{
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  /* border: 1px solid black; */
+}
+.eastate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rgmirageicon{
+  border-radius: 50%;
+  height: 100px;
+}
+
+.eastate_name{
+  padding: 0px 10px;
+}
+
+.other_option{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 80px;
+}
+.dif_option{
+  margin: 0px 20px;
+  /* border: 1px solid black; */
+
+}
+.contact_us{
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  padding: 0px 20px;
+}
+
+
+/* Header Display Body */
+
+.header_body{
+  margin:  10px 50px;
+  display: flex;
+  position: relative;
+  height: 800px;
+  justify-content: center;
+  /* border: 1px solid black; */
+  object-fit:cover;
+}
+.bg_img{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+.tint{
+  background-color: #00000060;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+  border-radius: 25px;
+}
+.header_content{
+  font-family: "DM Sans",sans-serif;
+  font-size: 30px;
+  position: absolute;
+  color: white;
+  top: 225px;
+}
+.content_description{
+  padding: 0px 150px;
+}
+.filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 760px;
+  height: 50px;
+  margin: 0px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+.cat{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.achievements_head{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 25px 60px;
+  position: relative;
+}
+
+.achievements_title{
+  width: 800px;
+  font-size: 40px;
+}
+.achievements_numbers{
+  width: 900px;
+  padding: 30px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.number_box{
+  font-size: 30px;
+  background-color: #E5D4FF;
+  color:black;
+  width: 400px;
+  padding: 10px;
+  height: 250px;
+  border-radius: 25px;
+  /* border: 1px solid grey; */
+  margin-bottom: 30px;
+}
+.number_box:hover{
+  transition: 0.5s;
+  color: white;
+  background-color: black;
+}
+.achive_img{
+  height:1000px;
+  width:700px;
+  position:absolute;
+  right: 100px;
+  top: 1000px;
+  border-radius:25px;
+}
+.property_header{
+  display: flex;
+  padding: 50px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property_main_header{
+  font-size: 40px;
+  width: 900px;
+}
+.property_description{
+  font-size: 25px;
+  width: 700px;
+}
+
+.property_img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.property_1{
+  padding: 0px 60px;
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+
+.property_image{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.top{
+  height: 400px;
+  width: 800px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;;
+}
+.left{
+  width: 380px;
+  height: 360px;
+  object-fit: cover;
+}
+.property_detail{
+  font-size: 18px;
+  width: 780px;
+  margin: 40px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer{
+    background-color: black;
+    margin: 50px 60px;
+    height: 600px;
+    border-radius: 25px;
+    padding: 10px 50px;
+    color: white;
+}
+.footer_heading{
+    font-size: 30px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom_left{
+    font-size: 20px;
+    width: 800px;
+}
+.email{
+    background-color: black;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.email_sec{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+    border: none
+}
+.submit_btn{
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    position: relative;
+    font-size: 20px;
+}
+.bottom_right{
+    width: 400px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
